@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "PP Mori Regular";
+  src: url(../assets/Font/PPMori-Regular.otf);
+}
+
+body {
+  font-family: "PP Mori Regular", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+
+main {
+  padding: 1.25rem 2.8rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding-right: 0.75em;
+    list-style: none;
+  }
+}

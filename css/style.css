@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "PP Mori Regular";
+  src: url(../assets/Font/PPMori-Regular.otf);
+}
+
+body {
+  font-family: "PP Mori Regular", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+
+main {
+  padding: 1.25rem 2.8rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  padding-right: 0.75em;
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
